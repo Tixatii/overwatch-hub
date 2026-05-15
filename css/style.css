@@ -1,0 +1,210 @@
+/* Web Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Colour Palette (Overwatch Wiki Theme) */
+:root {
+  --bg-dark: #121212;
+  --bg-panel: #1e1e1e;
+  --text-main: #f5f5f5;
+  --text-muted: #cccccc;
+  --ow-orange: #f99e1a;
+  --ow-blue: #00aeff;
+}
+
+/* Base Layer */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header & Navigation */
+header {
+  background-color: var(--bg-panel);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid var(--ow-orange);
+}
+
+header h1 {
+  color: var(--ow-orange);
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: var(--ow-blue);
+}
+
+/* Main Layout */
+main {
+  flex: 1; /* Pushes the footer to the bottom of the page */
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column; /* Forces everything to stack vertically */
+  align-items: center;    /* Centres stacked items horizontally */
+  gap: 20px;              /* Adds a space for multiple sections */
+}
+
+section {
+  background-color: var(--bg-panel);
+  max-width: 800px;
+  width: 100%;
+  padding: 35px;
+  border-radius: 8px;
+  border: 1px solid #333333;
+}
+
+/* Typography */
+h2 {
+  color: var(--ow-orange);
+  margin-bottom: 20px;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: var(--ow-blue);
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: var(--text-muted);
+}
+
+/* External Links (Community Page) */
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  color: var(--text-muted);
+}
+
+ul a {
+  color: var(--ow-blue);
+  text-decoration: none;
+}
+
+ul a:hover {
+  text-decoration: underline;
+  color: var(--ow-orange);
+}
+
+/* Footer */
+footer {
+  background-color: var(--bg-panel);
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #333333;
+  color: #888888;
+  font-size: 0.9em;
+}
+
+/* Image Gallery (Heroes Page) */
+#hero-gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.gallery-item {
+  background-color: var(--bg-dark);
+  border: 1px solid #333333;
+  border-radius: 6px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.2s;
+}
+
+.gallery-item img:hover {
+  opacity: 0.8;
+}
+
+.gallery-item p {
+  padding: 15px;
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
+
+/* Map Carousel (Maps & Modes Page)*/
+.carousel {
+  background-color: var(--bg-dark);
+  border: 1px solid #333333;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 3px solid var(--ow-orange);
+}
+
+.carousel-description {
+  padding: 20px;
+  margin: 0;
+  font-size: 1.1em;
+  color: var(--text-main);
+}
+
+.carousel-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 25px;
+}
+
+.carousel-buttons button {
+  background-color: var(--bg-panel);
+  color: var(--ow-blue);
+  border: 2px solid var(--ow-blue);
+  padding: 10px 25px;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.carousel-buttons button:hover {
+  background-color: var(--ow-blue);
+  color: var(--bg-dark);
+}

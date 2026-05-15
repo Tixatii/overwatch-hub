@@ -1,0 +1,38 @@
+[
+  {
+    "image": "images/heroes/winston.jpg",
+    "description": "Winston, a genetically engineered gorilla scientist who leaps onto the enemies to disrupt enemy formations."
+  },
+  {
+    "image": "images/heroes/ramattra.jpg",
+    "description": "Ramattra, an Omnic leader who shifts between a defensive shielding form and a brawling nemesis form to defend and attack from all distances."
+  },
+  {
+    "image": "images/heroes/sigma.jpg",
+    "description": "Sigma, an astrophysicist who can manipulate gravity to hurl debris and project barriers to control the battlefield."
+  },
+  {
+    "image": "images/heroes/emre.jpg",
+    "description": "Emre, a cybernetically altered killing machine who utilises a burst rifle and frag grenades to eliminate opponents with run-and-gun aggression."
+  },
+  {
+    "image": "images/heroes/tracer.jpg",
+    "description": "Tracer, a time jumping Overwatch pilot who blinks around the battlefield to flank opponents and eliminate key targets."
+  },
+  {
+    "image": "images/heroes/sojourn.jpg",
+    "description": "Sojourn, a cybernetically augmented Overwatch captain who utilises high mobility slides with a mixture of sustained fire and burst damage from her Railgun."
+  },
+  {
+    "image": "images/heroes/brigitte.jpg",
+    "description": "Brigitte, the daughter and squire of an ex-Overwatch engineer who fights on the front lines with her rocket flail and shield, providing steady healing and armour packs to her allies."
+  },
+  {
+    "image": "images/heroes/juno.jpg",
+    "description": "Juno, a martian-born human who utilises high mobility jumps, glides, and speed-boosting abilities to both heal her allies and damage her opponents with her blaster and aerial torpedoes."
+  },
+  {
+    "image": "images/heroes/kiriko.jpg",
+    "description": "Kiriko, a traditional shrine maiden and vigilante who can teleport around the battlefield to heal her allies with her ofuda and cleanse negative effects with her suzu, whilst also delivering damage with her kunai."
+  }
+]

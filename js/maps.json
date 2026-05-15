@@ -1,0 +1,38 @@
+[
+  {
+    "image": "images/maps/kings-row.jpg",
+    "description": "King's Row: Hybrid map set in London, England."
+  },
+  {
+    "image": "images/maps/rialto.jpg",
+    "description": "Rialto: Escort map set in Venice, Italy."
+  },
+  {
+    "image": "images/maps/havana.jpg",
+    "description": "Havana: Escort map set in Cuba."
+  },
+  {
+    "image": "images/maps/lijiang-tower.jpg",
+    "description": "Lijiang Tower: Control map set in China."
+  },
+  {
+    "image": "images/maps/ilios.jpg",
+    "description": "Ilios: Control map set in Greece."
+  },
+  {
+    "image": "images/maps/antarctic-peninsula.jpg",
+    "description": "Antarctic Peninsula: Control map set in Antarctica."
+  },
+  {
+    "image": "images/maps/colosseo.jpg",
+    "description": "Colosseo: Push map set in Rome, Italy."
+  },
+  {
+    "image": "images/maps/suravasa.jpg",
+    "description": "Suravasa: Flashpoint map set in India."
+  },
+  {
+    "image": "images/maps/aatlis.jpg",
+    "description": "Aatlis: Flashpoint map set in Morocco."
+  }
+]
